@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="pomodoro.css">
+</head>
+
+<html>  
+  <head>
+     <p id="pageName">
+  The Bell Pepper Clock 
+  </p>
+  </head>
+  
+  <body>
+     
+    <p id="startPomodoro" align="center"> 
+      <button type="button" id="instruction"> Show / Hide Instruction 
+      </button>
+      <p id="instructionPara"> Inspired by the Pomodoro Clock <br> <br> Set session length  and break length <br>and click green pepper to start </p> </p>
+    
+  <body>
+    
+   <p>
+       <div id="sessionCountdown"> 
+   
+      <button id="countdownSessionButton"> 
+        25:00 
+      </button>  
+          
+    <div id="breakCountdown"> 
+   
+      <button id="countdownBreakButton"> 
+        5:00 
+      </button>  
+      <div>
+    </p>    
+     
+    <div id="session"> 
+    
+    <p>
+      Session Length     
+    </p>
+  
+  <p>
+    <button id="sessionMinus"> 
+    -
+    </button>
+    
+    <button id="sessionTime">
+      25
+    </button>
+    
+    <button id="sessionPlus">
+      +
+    </button>
+      </p>
+</div>
+  
+     
+    <div id="break"> 
+      <p>
+      Break Length 
+    </p>
+
+      <p>
+    <button id="breakMinus"> 
+    -
+    </button>
+    
+    <button id="breakTime">
+      5
+    </button>
+    
+    <button id="breakPlus">
+      +
+    </button>
+      </p>
+</div>
+
+  </div>
+         
+         
+         
+ 
+
+         <audio id="myAudio">
+  
+           <source src="http://www.elenore.de/sounds/woo_hoo.wav" 
+                   type="audio/wav">
+  
+           Your browser does not support the audio element.
+
+         </audio>
+         
+         <audio id="myBreakAudio">
+  
+           <source src="http://bikers-shack.co.uk/downloads/doh.wav" 
+                   type="audio/wav">
+  
+           Your browser does not support the audio element.
+
+         </audio>
+         
+		 
+		 <script src="pomodoro.js"></script>
+
+
+    </body>
+</html>
